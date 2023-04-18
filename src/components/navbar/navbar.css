@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    height: 100px;
+    background: whitesmoke;
+}
+
+nav .left span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+}
+nav .right ul{
+    display: flex;
+}
+nav .right ul li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav .right ul li:hover{
+    color: lightblue;
+}
+
+button{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: lightblue;
+    border: none;
+    box-shadow: 5px 5px 5px lightgrey;
+    cursor: pointer;
+}
